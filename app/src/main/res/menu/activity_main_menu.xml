@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/main_mm"
+        android:orderInCategory="100"
+        android:title="@string/family_collector_mm"
+        />
+    <item android:id="@+id/gallery_mm"
+        android:orderInCategory="100"
+        android:title="Gallery"
+        />
+    <item android:id="@+id/about_mm"
+        android:orderInCategory="100"
+        android:title="@string/about_us_mm"
+        />
+    <item android:id="@+id/settings_mm"
+        android:orderInCategory="100"
+        android:title="Settings"
+    />
+</menu>

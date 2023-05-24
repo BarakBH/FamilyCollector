@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FamilyCollector</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="login">Return To Login</string>
+    <string name="headline">Login To Family Collector</string>
+    <string name="loginToApp">Log In</string>
+    <string name="dont_have_account_register">Dont Have Account ? Register</string>
+    <string name="log_out_mm">Log Out</string>
+    <string name="family_collector_mm">Family Collector</string>
+    <string name="about_us_mm">About Us</string>
+    <string name="about_us_headline">About Us</string>
+    <string name="names_about">Names:</string>
+    <string name="devnames">Barak Ben Hamo &amp; Liya Avitan</string>
+    <string name="operatingsys">O.S:</string>
+    <string name="osdetails">Android Studio Electric Eel Min APK 26</string>
+    <string name="gallery">Gallery</string>
+    <string name="settings">Settings</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textFontWeight="800"
+        android:fontFamily="serif"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:textFontWeight="800"
+        android:text="@string/names_about"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="290dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:text="@string/devnames"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="@string/operatingsys"
+        android:textFontWeight="800"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:text="@string/osdetails"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+
+</RelativeLayout>

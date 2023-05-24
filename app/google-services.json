@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736765731192",
+    "project_id": "familycollectorv2",
+    "storage_bucket": "familycollectorv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736765731192:android:7eb7c427126e8fd728688d",
+        "android_client_info": {
+          "package_name": "com.barakliya.familycollectorv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736765731192-sg3s1o346cgd0bk7egvqdd9i0db3b3p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCcIOoR2tztRSNcGZ_AawuTBLS0_zA2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736765731192-sg3s1o346cgd0bk7egvqdd9i0db3b3p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
