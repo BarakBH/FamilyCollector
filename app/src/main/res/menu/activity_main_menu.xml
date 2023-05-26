@@ -8,7 +8,7 @@
         />
     <item android:id="@+id/gallery_mm"
         android:orderInCategory="100"
-        android:title="Gallery"
+        android:title="@string/gallery"
         />
     <item android:id="@+id/about_mm"
         android:orderInCategory="100"
@@ -16,6 +16,22 @@
         />
     <item android:id="@+id/settings_mm"
         android:orderInCategory="100"
-        android:title="Settings"
+        android:title="@string/settings"
     />
+    <item android:id="@+id/login_mm"
+        android:orderInCategory="100"
+        android:title="@string/loginappbar"
+        />
+    <item android:id="@+id/register_mm"
+        android:orderInCategory="100"
+        android:title="@string/register"
+        />
+    <item android:id="@+id/signout_mm"
+        android:orderInCategory="100"
+        android:title="@string/signout"
+        />
+    <item android:id="@+id/exit_mm"
+        android:orderInCategory="100"
+        android:title="@string/exit_app"
+        />
 </menu>

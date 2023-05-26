@@ -21,6 +21,9 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+        menu.findItem(R.id.settings_mm).setVisible(false);
+        menu.findItem(R.id.login_mm).setVisible(false);
+        menu.findItem(R.id.register_mm).setVisible(false);
         return true;
     }
 
@@ -43,9 +46,18 @@ public class SettingsActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-        if(item.getItemId()==R.id.settings_mm){
-            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
+//        if(item.getItemId()==R.id.settings_mm){
+//            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
+//            startActivity(intent);
+//            finish();
+//        }
+        if(item.getItemId()==R.id.signout_mm) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(intent);
+            finish();
+        }
+        if(item.getItemId()==R.id.exit_mm) {
             finish();
         }
         return true;

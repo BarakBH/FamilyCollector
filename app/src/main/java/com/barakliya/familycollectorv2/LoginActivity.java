@@ -10,6 +10,8 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.text.InputType;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -101,4 +103,29 @@ public class LoginActivity extends AppCompatActivity {
             }
    });
 }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+        menu.findItem(R.id.about_mm).setVisible(false);
+        menu.findItem(R.id.main_mm).setVisible(false);
+        menu.findItem(R.id.settings_mm).setVisible(false);
+        menu.findItem(R.id.gallery_mm).setVisible(false);
+        menu.findItem(R.id.signout_mm).setVisible(false);
+        menu.findItem(R.id.login_mm).setVisible(false);
+        return true;
+    }
+
+    @SuppressLint("NonConstantResourceId")
+    @Override
+    public boolean onOptionsItemSelected (@NonNull MenuItem item){
+        if(item.getItemId()==R.id.register_mm) {
+            Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+            startActivity(intent);
+            finish();
+        }
+        if(item.getItemId()==R.id.exit_mm) {
+            finish();
+        }
+        return true;
+    }
 }

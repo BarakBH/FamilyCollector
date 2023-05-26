@@ -8,7 +8,7 @@
     <string name="login">Return To Login</string>
     <string name="headline">Login To Family Collector</string>
     <string name="loginToApp">Log In</string>
-    <string name="dont_have_account_register">Dont Have Account ? Register</string>
+    <string name="dont_have_account_register">Don\'t Have Account ? Register</string>
     <string name="log_out_mm">Log Out</string>
     <string name="family_collector_mm">Family Collector</string>
     <string name="about_us_mm">About Us</string>
@@ -19,5 +19,9 @@
     <string name="osdetails">Android Studio Electric Eel Min APK 26</string>
     <string name="gallery">Gallery</string>
     <string name="settings">Settings</string>
+    <string name="upload">Upload</string>
+    <string name="signout">SignOut</string>
+    <string name="exit_app">Exit App</string>
+    <string name="loginappbar">Login</string>
 
 </resources>
